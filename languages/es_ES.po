@@ -1,0 +1,71 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Segucargo\n"
+"POT-Creation-Date: 2024-01-17\n"
+"PO-Revision-Date: 2024-01-17\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Primary Menu"
+msgstr "Menú Principal"
+
+msgid "Footer Menu"
+msgstr "Menú del Pie de Página"
+
+msgid "All rights reserved."
+msgstr "Todos los derechos reservados."
+
+msgid "Services"
+msgstr "Servicios"
+
+msgid "Service"
+msgstr "Servicio"
+
+msgid "Add New"
+msgstr "Añadir Nuevo"
+
+msgid "Add New Service"
+msgstr "Añadir Nuevo Servicio"
+
+msgid "Edit Service"
+msgstr "Editar Servicio"
+
+msgid "New Service"
+msgstr "Nuevo Servicio"
+
+msgid "View Service"
+msgstr "Ver Servicio"
+
+msgid "Search Services"
+msgstr "Buscar Servicios"
+
+msgid "Nothing found."
+msgstr "No se encontró nada."
+
+msgid "Learn More"
+msgstr "Saber Más"
+
+msgid "Our Services"
+msgstr "Nuestros Servicios"
+
+msgid "Footer Widgets"
+msgstr "Widgets del Pie de Página"
+
+msgid "Add widgets here to appear in footer."
+msgstr "Añada widgets aquí para que aparezcan en el pie de página."
+
+msgid "Header Settings"
+msgstr "Configuración del Encabezado"
+
+msgid "Logo Height (px)"
+msgstr "Altura del Logo (px)"
+
+msgid "Primary Color"
+msgstr "Color Principal"
+
+msgid "Menu"
+msgstr "Menú"

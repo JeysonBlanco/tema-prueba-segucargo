@@ -1,0 +1,36 @@
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  font-weight: 500;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+  // Responsive padding
+  @include media-down(sm) {
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+  }
+}
+
+// Button variations
+.btn-primary {
+  background-color: $primary;
+  color: white;
+
+  &:hover {
+    background-color: darken($primary, 10%);
+  }
+}
+
+.btn-secondary {
+  background-color: $secondary;
+  color: white;
+
+  &:hover {
+    background-color: darken($secondary, 10%);
+  }
+}

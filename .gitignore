@@ -1,0 +1,44 @@
+# WordPress Core
+wp-admin/
+wp-includes/
+wp-content/*
+!wp-content/themes/
+wp-content/themes/*
+!wp-content/themes/freight-forwarder/
+
+# Node modules
+node_modules/
+
+# Build files
+dist/
+build/
+
+# Environment files
+.env
+.env.*
+
+# Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Backup files
+*.bak
+*.swp
+*.swo

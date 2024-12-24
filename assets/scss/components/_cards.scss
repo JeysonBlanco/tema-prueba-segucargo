@@ -1,0 +1,25 @@
+.service-card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  height: 100%;
+  transition: transform 0.3s ease;
+
+  @include media-down(sm) {
+    padding: 1.5rem;
+  }
+
+  &:hover {
+    transform: translateY(-5px);
+  }
+
+  h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+
+    @include media-down(sm) {
+      font-size: 1.25rem;
+    }
+  }
+}

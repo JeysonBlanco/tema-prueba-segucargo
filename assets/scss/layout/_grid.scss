@@ -1,0 +1,29 @@
+// Grid system
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -1rem;
+  margin-left: -1rem;
+}
+
+// Columns
+@for $i from 1 through 12 {
+  .col-#{$i} {
+    flex: 0 0 percentage($i / 12);
+    max-width: percentage($i / 12);
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+}
+
+// Responsive columns
+@each $breakpoint in map-keys($breakpoints) {
+  @include media-up($breakpoint) {
+    @for $i from 1 through 12 {
+      .col-#{$breakpoint}-#{$i} {
+        flex: 0 0 percentage($i / 12);
+        max-width: percentage($i / 12);
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+// Media queries
+@mixin media-up($breakpoint) {
+  @if map-has-key($breakpoints, $breakpoint) {
+    @media (min-width: map-get($breakpoints, $breakpoint)) {
+      @content;
+    }
+  }
+}
+
+@mixin media-down($breakpoint) {
+  @if map-has-key($breakpoints, $breakpoint) {
+    @media (max-width: map-get($breakpoints, $breakpoint) - 1) {
+      @content;
+    }
+  }
+}
+
+// Container
+@mixin make-container() {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 1rem;
+  padding-left: 1rem;
+
+  @each $breakpoint, $width in $container-max-widths {
+    @include media-up($breakpoint) {
+      max-width: $width;
+    }
+  }
+}
